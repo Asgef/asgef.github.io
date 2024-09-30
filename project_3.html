@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content='Моё портфолио | Подробное описание проекта "Difference Generator"'>
+  <meta name="description" content='Моё портфолио | Подробное описание проекта "Page analyzer"'>
   <meta name="robots" content="noindex, nofollow">
   <title>Название Проекта | Моё портфолио</title>
   <!-- Bootstrap CSS -->
@@ -31,8 +31,8 @@
   <!-- Заголовок проекта -->
   <header class="project-header text-center">
     <div class="container">
-      <h1>Difference generator</h1>
-      <p>Консольная утилита, показывающая разницу между файлами в форматах JSON или YAML.</p>
+      <h1>Page analyzer</h1>
+      <p>Небольшое веб-приложение</p>
     </div>
   </header>
 
@@ -42,31 +42,37 @@
     <section>
       <h2 class="section-title">Описание проекта</h2>
       <p>
-        Консольная утилита, сравнивающая два файла в формате JSON или YAML и находящая отличия между ними. В зависимости от выбранного параметра результат вводится в виде одного из 3х форматов: stylish, plain или json.
+        Небольшое, но полноценное веб-приложение на основе фреймворка Flask, которое оценивает сайты на пригодность для SEO.
       </p>
-      
-      <h5>В данном проекте отработал навыки</h5>
+    <ul>
+        <li>Проверяет, нормализовывает, и добавляет в базу данных URL</li>
+        <li>Проверяет доступность сайта</li>
+        <li>Собирает данные, такие как теги h1, заголовок и описание, добавляет их в базу данных</li>
+        <li>Отображает список всех добавленных сайтов и даты их последних проверок</li>
+        <li>Отображает подробную информацию по каждому сайту</li>
+    </ul>  
+
+    <h5>В данном проекте получил навыки</h3>
       <ul>
-        <li>Реализации подхода DDT</li>
-        <li>Работы с фикстурами в библиотеке Pytest</li>
-        <li>Разработки косольного интерфейса с библиотекой Argparse</li>
-        <li>Составлении строки документации</li>
-        <li>Работы с GitHub Actions и отправка статистики по покрытию тестами в сервис "Codeclimate"</li>
+        <li>Составления SQL запросов и работы с базой даных PosgreSQL </li>
+        <li>Вёрстки страницы по средствам вэб-фреймворка Bootstrap 5 и шаблонизатора Jinja2</li>
+        <li>Работы с переменными окружения</li>
+        <li>Развертывания проекта в продакшен среде на примере Render</li>
       </ul>
-        
     </section>
 
     <!-- Технологии -->
     <section>
       <h2 class="section-title">Использованные технологии</h2>
       <div>
-        <span class="badge bg-primary tech-badge">Python</span>
-        <span class="badge bg-warning text-dark tech-badge">Pytest</span>
-        <span class="badge bg-secondary tech-badge">Poetry</span>
-        <span class="badge bg-success tech-badge">Flake8</span>
-        <span class="badge bg-info text-dark tech-badge">Prompt</span>
-        <span class="badge bg-dark tech-badge">Git</span>
+        <span class="badge bg-primary tech-badge">HTML5</span>
+        <span class="badge bg-secondary tech-badge">CSS3</span>
+        <span class="badge bg-info text-dark tech-badge">Bootstrap</span>
+        <span class="badge bg-warning text-dark tech-badge">PostgreSQL</span>
+        <span class="badge bg-danger tech-badge">Flask</span>
+        <span class="badge bg-secondary tech-badge">Gunicorn</span>
         <span class="badge bg-primary tech-badge">GitHub Actions</span>
+        <span class="badge bg-dark tech-badge">Git</span>
       </div>
     </section>
 
@@ -75,7 +81,8 @@
     <section>
       <h2 class="section-title">Ссылки</h2>
       <ul>
-        <li><a href="https://github.com/Asgef/python-project-50" target="_blank">Исходный код на GitHub</a></li>
+        <li><a href="https://github.com/Asgef/python-project-83" target="_blank">Исходный код на GitHub</a></li>
+        <li><a href="http://188.120.247.71:9000/" target="_blank">Демо-версия</a></li>
       </ul>
     </section>
 
